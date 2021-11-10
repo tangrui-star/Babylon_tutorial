@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Babylon Template</title>
+
+    <style>
+        html,
+        body {
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #renderCanvas {
+            width: 100%;
+            height: 100%;
+            touch-action: none;
+        }
+    </style>
+
+    <script src="https://preview.babylonjs.com/babylon.js"></script>
+    <script src="https://preview.babylonjs.com/loaders/babylonjs.loaders.min.js"></script>
+    <script src="https://code.jquery.com/pep/0.4.3/pep.js"></script>
+</head>
+
+<body>
+
+    <canvas id="renderCanvas" touch-action="none"></canvas>
+    //touch-action="none" for best results from PEP
+
+    <script>
+
+        let canvas = document.getElementById("renderCanvas");
+        // 初始化 babylon 3D engine
+        let engine = new BABYLON.Engine(canvas, false);
+
+
+        /* ********* Add the create scene function ********** */
+        let createScene = function () {
+
+            // 创建一个场景 scence
+            // 创建一个 engine 对象
+            let scene = new BABYLON.Scene(engine);
+
+            // 添加一个相机
+            let camera = new BABYLON.ArcRotateCamera("Camera", Math.PI / 2, Math.PI / 2,2, new BABYLON.Vector3(0, 0, 5), scene);
+            // 并绑定一个鼠标事件
+            camera.attachControl(canvas, true);
+
+            // 添加一组灯光到场景
+            let light1 = new BABYLON.HemisphericLight("light1",new BABYLON.Vector3(1,1,0), scene);
+            let light2 = new BABYLON.PointLight("light2",new BABYLON.Vector3(1,1,1),scene);
+
+            // 添加一个球体到场景中
+            let sphere = BABYLON.MeshBuilder.CreateSphere("sphere",{diameter:2},scene);
+
+
+            return scene;
+        }
+
+        /* ********** End of the create scene function ************* */
+
+        // 调用这个创建函数
+        let scene = createScene();
+
+        // 最后一步，调用 engine 的 runRenderLoop 方案，执行scene.rander(),让3d场景渲染起来
+        engine.runRenderLoop(function () {
+            scene.render();
+        });
+
+        // 监听浏览器改变大小的事件，通过调用 engine.resize() 适应窗口大小
+        window.addEventListener("resize", function () {
+            engine.resize();
+        });
+
+    </script>
+
+</body>
+
+</html>
