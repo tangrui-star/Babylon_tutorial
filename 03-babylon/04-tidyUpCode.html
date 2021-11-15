@@ -46,6 +46,8 @@
     const box = buildBox();
     const roof = buildRoof();
 
+    const hourse = BABYLON.Mesh.MergeMeshes([box, roof])
+
     return scene;
 
   };
@@ -60,8 +62,8 @@
 
   const buildBox = ()=>{
     // texture
-    const boxMat = new BABYLON.StandardMaterAial("boxMat");
-    boxMat.diffuseTexture = new BBYLON.Texture("https://assets.babylonjs.com/environments/cubehouse.png");
+    const boxMat = new BABYLON.StandardMaterial("boxMat");
+    boxMat.diffuseTexture = new BABYLON.Texture("https://assets.babylonjs.com/environments/cubehouse.png");
 
     const faceUV = [];
     faceUV[0] = new BABYLON.Vector4(0.5, 0.0, 0.75, 1.0); //rear face
