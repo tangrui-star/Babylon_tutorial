@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeaa7479-4f0b-4bf7-8c20-98e08c819252" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-babylon/04-tidyUpCode.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-babylon/04-tidyUpCode.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +51,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\le5leWorkSpace\myWorkSpace\babylonNotes" />
       <recent name="D:\le5leWorkSpace\myWorkSpace\babylonNotes\js" />
     </key>
   </component>
@@ -72,7 +73,8 @@
       <workItem from="1636530256516" duration="25000" />
       <workItem from="1636530828900" duration="690000" />
       <workItem from="1636703922312" duration="2010000" />
-      <workItem from="1636965395469" duration="4040000" />
+      <workItem from="1636965395469" duration="4843000" />
+      <workItem from="1637027734823" duration="59000" />
     </task>
     <task id="LOCAL-00001" summary="初步了解 babylon">
       <created>1636965452713</created>
@@ -95,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636967395899</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Create a series of houses &amp;&amp; Pull it out as a function">
+      <created>1636970031698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636970031698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +127,7 @@
     <MESSAGE value="Vector4-材质与Mesh抽离" />
     <MESSAGE value="bug-修复" />
     <MESSAGE value="合并Mesh.MergeMeshes" />
-    <option name="LAST_COMMIT_MESSAGE" value="合并Mesh.MergeMeshes" />
+    <MESSAGE value="Create a series of houses &amp;&amp; Pull it out as a function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create a series of houses &amp;&amp; Pull it out as a function" />
   </component>
 </project>
