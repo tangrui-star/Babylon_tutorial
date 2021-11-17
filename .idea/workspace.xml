@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeaa7479-4f0b-4bf7-8c20-98e08c819252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03-babylon/05-animation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +75,8 @@
       <workItem from="1636703922312" duration="2010000" />
       <workItem from="1636965395469" duration="4843000" />
       <workItem from="1637027734823" duration="59000" />
+      <workItem from="1637027802704" duration="115000" />
+      <workItem from="1637133323815" duration="8591000" />
     </task>
     <task id="LOCAL-00001" summary="初步了解 babylon">
       <created>1636965452713</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636970031698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="加入gitignore">
+      <created>1637027830454</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1637027830454</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +137,7 @@
     <MESSAGE value="bug-修复" />
     <MESSAGE value="合并Mesh.MergeMeshes" />
     <MESSAGE value="Create a series of houses &amp;&amp; Pull it out as a function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create a series of houses &amp;&amp; Pull it out as a function" />
+    <MESSAGE value="加入gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入gitignore" />
   </component>
 </project>
