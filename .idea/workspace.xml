@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeaa7479-4f0b-4bf7-8c20-98e08c819252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-action-babylon/01-sphereActionTriangle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-action-babylon/02-animationCharacter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-action-babylon/scenes/Dude.babylon" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/03-babylon/05-animation.html" beforeDir="false" afterPath="$PROJECT_DIR$/03-babylon/05-animation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +52,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/04-action-babylon" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\le5leWorkSpace\myWorkSpace\babylonNotes\04-action-babylon" />
       <recent name="D:\le5leWorkSpace\myWorkSpace\babylonNotes" />
       <recent name="D:\le5leWorkSpace\myWorkSpace\babylonNotes\js" />
     </key>
@@ -78,7 +79,7 @@
       <workItem from="1637027734823" duration="59000" />
       <workItem from="1637027802704" duration="115000" />
       <workItem from="1637133323815" duration="9465000" />
-      <workItem from="1637311070421" duration="3327000" />
+      <workItem from="1637311070421" duration="6071000" />
     </task>
     <task id="LOCAL-00001" summary="初步了解 babylon">
       <created>1636965452713</created>
@@ -122,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1637144226549</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="animationCar-settingFrame">
+      <created>1637314537415</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1637314537415</updated>
+    </task>
+    <task id="LOCAL-00008" summary="sphereActionTriangle">
+      <created>1637314562385</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1637314562385</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +163,9 @@
     <MESSAGE value="Create a series of houses &amp;&amp; Pull it out as a function" />
     <MESSAGE value="加入gitignore" />
     <MESSAGE value="car animation in the village" />
-    <option name="LAST_COMMIT_MESSAGE" value="car animation in the village" />
+    <MESSAGE value="animationCar-settingFrame" />
+    <MESSAGE value="sphereActionTriangle" />
+    <option name="LAST_COMMIT_MESSAGE" value="sphereActionTriangle" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637144192206">
