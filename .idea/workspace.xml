@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeaa7479-4f0b-4bf7-8c20-98e08c819252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-action-babylon/02-animationCharacter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04-action-babylon/scenes/Dude.babylon" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/04-action-babylon/03-followRedSphere.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +78,11 @@
       <workItem from="1637027734823" duration="59000" />
       <workItem from="1637027802704" duration="115000" />
       <workItem from="1637133323815" duration="9465000" />
-      <workItem from="1637311070421" duration="6071000" />
+      <workItem from="1637311070421" duration="6247000" />
+      <workItem from="1637478399262" duration="712000" />
+      <workItem from="1637483713085" duration="1206000" />
+      <workItem from="1637545227818" duration="13000" />
+      <workItem from="1637569578092" duration="1886000" />
     </task>
     <task id="LOCAL-00001" summary="初步了解 babylon">
       <created>1636965452713</created>
@@ -137,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637314562385</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="导入人物失败！？跑个服务？">
+      <created>1637317554129</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1637317554129</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,7 +175,9 @@
     <MESSAGE value="car animation in the village" />
     <MESSAGE value="animationCar-settingFrame" />
     <MESSAGE value="sphereActionTriangle" />
-    <option name="LAST_COMMIT_MESSAGE" value="sphereActionTriangle" />
+    <MESSAGE value="导入人物失败！？" />
+    <MESSAGE value="导入人物失败！？跑个服务？" />
+    <option name="LAST_COMMIT_MESSAGE" value="导入人物失败！？跑个服务？" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637144192206">
