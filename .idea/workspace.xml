@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eeaa7479-4f0b-4bf7-8c20-98e08c819252" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/04-action-babylon/03-followRedSphere.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04-action-babylon/03-followRedSphere.html" beforeDir="false" afterPath="$PROJECT_DIR$/04-action-babylon/03-followRedSphere.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,9 @@
       <workItem from="1637478399262" duration="712000" />
       <workItem from="1637483713085" duration="1206000" />
       <workItem from="1637545227818" duration="13000" />
-      <workItem from="1637569578092" duration="1886000" />
+      <workItem from="1637569578092" duration="4571000" />
+      <workItem from="1637631694698" duration="20000" />
+      <workItem from="1637636981953" duration="2197000" />
     </task>
     <task id="LOCAL-00001" summary="初步了解 babylon">
       <created>1636965452713</created>
@@ -147,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637317554129</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="屏幕坐标转换成3D坐标-跟随红球">
+      <created>1637572929729</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1637572929729</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +186,8 @@
     <MESSAGE value="sphereActionTriangle" />
     <MESSAGE value="导入人物失败！？" />
     <MESSAGE value="导入人物失败！？跑个服务？" />
-    <option name="LAST_COMMIT_MESSAGE" value="导入人物失败！？跑个服务？" />
+    <MESSAGE value="屏幕坐标转换成3D坐标-跟随红球" />
+    <option name="LAST_COMMIT_MESSAGE" value="屏幕坐标转换成3D坐标-跟随红球" />
   </component>
   <component name="WindowStateProjectService">
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1637144192206">
